@@ -1,0 +1,39 @@
+body {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  background-color: #f5f5f5;
+}
+
+.box {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+
+  width: 50%;
+  max-width: 800px;
+  background-color: #ffffff; /* white */
+  padding: 20px;
+  margin-top: 20px;
+  box-shadow: 0px 10px 20px rgba(0, 0, 0, 0.19), 0px 6px 6px rgba(0, 0, 0, 0.23);
+}
+
+img[data-testid="slackDisplayImage"] {
+  width: 200px;
+  height: 200px;
+  border-radius: 50%;
+}
+
+a {
+  text-decoration: none;
+  color: #0090fc;
+}
+
+a:hover {
+  text-decoration: none;
+  color: #fff;
+  background-color: #4d4b4b;
+  border: 1px solid #4d4b4b;
+  border-radius: 5px;
+  padding: 5px;
+}
